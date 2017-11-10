@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Workspace from 'odeum-app'
 import { Button } from 'odeum-ui'
 
 class ReactComp extends Component {
@@ -15,7 +14,7 @@ class ReactComp extends Component {
 
 	render() {
 		return (
-			<Workspace helpID={this.props.helpID}>
+			<div>
 				<Button 
 					label={'Show video: ' + String(this.state.showVideo).toLowerCase()} 
 					icon={'play_circle_outline'}
@@ -32,8 +31,7 @@ class ReactComp extends Component {
 						allowFullScreen>
 					</iframe>}
 				</div>
-
-			</Workspace>
+			</div>
 		)
 	}
 }
