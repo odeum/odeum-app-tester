@@ -11,6 +11,7 @@ import {
 /* Demo */
 import ReactComp from 'demos/ReactComp'
 import { SimpleDiv } from 'demos/SimpleDiv'
+import { RenderFooterLabel, handleLink } from './demos/FooterLabel'
 
 class App extends Component {
 	constructor(props) {
@@ -77,20 +78,6 @@ class App extends Component {
 			</AppContainer>
 		)
 	}
-}
-
-const handleLink = () => {
-	return '/home'
-}
-
-const RenderFooterLabel = () => {
-	const date = new Date()
-	return (
-		<div>
-			<strong>ODEUM Code</strong> v0.2.6 © Copyright
-			{' '}{date.getFullYear()}
-		</div>
-	)
 }
 
 export default App
