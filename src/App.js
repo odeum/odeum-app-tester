@@ -33,13 +33,8 @@ class App extends Component {
 	render() {
 		return (
 			<AppContainer>
-				{/* 
-				Todo: Use default theme transparently and include theme prop in AppContainer that overwrites default theme
-				Todo: Remove all inline styles and use styled-components ...
-				*/}
 				<Header />
 				<MenuPanel>
-
 					<Menu route={'/'} exact>
 						<Workspace helpID={0}>
 							Home Demo
@@ -62,7 +57,6 @@ class App extends Component {
 							<Workspace helpID={3}>
 								<ReactComp />								
 							</Workspace>
-
 						</Tab>
 						<Tab label={'Hello workspace'} icon={'visibility'} route={'/workspace'}>
 							<Workspace helpID={4}>
@@ -78,12 +72,6 @@ class App extends Component {
 							</Workspace>
 						</Tab>
 					</Menu>
-					{/* 					
-					Todo: Create defaultprops for Menu and Tab so they can be used without any props (label, icon, ...)
-					Todo: Fix Menu/MenuPanel so you can settle for only 1 tab
-					Workspace rendered from props
-					*/}
-
 				</MenuPanel>
 				<Footer label={RenderFooterLabel} labelLink={handleLink()} debug={String(this.state.helpID)} />
 			</AppContainer>
@@ -92,14 +80,14 @@ class App extends Component {
 }
 
 const handleLink = () => {
-	return '/children/overflow'
+	return '/home'
 }
 
 const RenderFooterLabel = () => {
 	const date = new Date()
 	return (
 		<div>
-			<strong>ODEUM Code Lite </strong> v1.0.0 © Copyright
+			<strong>ODEUM Code</strong> v0.2.6 © Copyright
 			{' '}{date.getFullYear()}
 		</div>
 	)
