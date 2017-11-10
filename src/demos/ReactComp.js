@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button } from 'odeum-ui'
+import uuid from 'uuid'
 
 class ReactComp extends Component {
 	constructor(props) {
@@ -21,6 +22,7 @@ class ReactComp extends Component {
 					color={'#25B89A'} 
 					onClick={this.switch}
 				/>
+				<p style={{ marginLeft: '3px' }}>Unique ID: {uuid()}</p>
 				<div>
 					{this.state.showVideo && <iframe 
 						title={'Lady Gaga - Telephone ft. Beyoncé'} 
