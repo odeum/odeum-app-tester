@@ -50,7 +50,7 @@ class App extends Component {
 	/*End TempDemo */
 	render() {
 		return (
-			<AppContainer>
+			<AppContainer theme={''}>
 				{/* 
 				Todo: Use default theme transparently and include theme prop in AppContainer that overwrites default theme
 				*/}
@@ -67,7 +67,7 @@ class App extends Component {
 					</Menu>
 
 					<Menu icon={'people'} route={'/child'} label={'Menu with one Tab and a Route Demo'}>
-						<Tab icon={'assignment'} label={'Overflow'} helpID={11} >
+						<Tab icon={'assignment'} label={'Overflow'} helpID={11}>
 							<RouteDemo />
 						</Tab>
 					</Menu>
