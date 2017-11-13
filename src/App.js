@@ -27,13 +27,13 @@ class App extends Component {
 
 		Menu.defaultProps = {
 			setHelpID: this.setHelpID,
-			icon: 'menu'
+			icon: 'menu' // TODO: why?
 		}
 
 		Tab.defaultProps = {
 			setHelpID: this.setHelpID,
-			label: 'Tab',
-			icon: 'tab'
+			label: 'Tab', // TODO: why?
+			icon: 'tab' // TODO: why?
 		}
 
 		Workspace.defaultProps = {
@@ -95,7 +95,7 @@ class App extends Component {
 					</Menu>
 
 					{/* 					
-					Todo: Create defaultprops for Menu and Tab so they can be used without any props (label, icon, ...)
+					Todo: Create defaultprops for Menu and Tab so they can be used without any props (label, icon, ... so why don't we use them?)
 					*/}
 
 				</MenuPanel>
