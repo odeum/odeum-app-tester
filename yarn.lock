@@ -4427,9 +4427,9 @@ obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.1.tgz#104124b6c602c6796881a042541d36db43a5264e"
 
-odeum-app@^0.2.6:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/odeum-app/-/odeum-app-0.2.9.tgz#8667c3fca5b77705fb7b143b2ef60acae070e2fe"
+odeum-app@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/odeum-app/-/odeum-app-0.2.10.tgz#a765eba1307e4e8196788139cb65444db921d03b"
   dependencies:
     odeum-ui "^0.1.26"
     react "^16.1.0"

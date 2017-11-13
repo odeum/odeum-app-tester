@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "odeum-app": "^0.2.6",
+    "odeum-app": "^0.2.10",
     "odeum-ui": "^0.1.26",
     "polished": "^1.9.0",
     "react": "^16.1.0",
