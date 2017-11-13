@@ -4,6 +4,8 @@ import hljs from 'highlight.js'
 import 'highlight.js/styles/atom-one-dark.css'
 import file from './markdownfile.md'
 
+console.log(file)
+
 const highlight = (str, lang) => {
 	if (lang && hljs.getLanguage(lang)) {
 		try {
@@ -30,27 +32,30 @@ const Markdown = () =>
 #### Header 4
 
 \`\`\`js
+import React, { Component } from 'react'
+import SomeComponent from './SomeComponent'
+
 const func = () => {
 // here is your js code
 }
 
- const MyComponent = () => <SomeComponent />
+const MyComponent = () => <SomeComponent />
 
 <MyComponent />
-  
+
 <AppContainer>
   <Header/>
     <MenuPanel>
-	  <Menu>
-	    <Tab/>
+	  <Menu route={'/'} exact helpID={10}>
+		<Tab icon={'assignment'} label={'Overflow'} helpID={11}>
+		</Tab>
 		<Tab/>
 		<Tab/>
 	  </Menu>
 	</MenuPanel>
 	<Footer/>
 </AppContainer>
-
 \`\`\`
-  `}</Md>
+	`}</Md>
 
 export default Markdown
