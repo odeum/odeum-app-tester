@@ -27,13 +27,13 @@ class App extends Component {
 
 		Menu.defaultProps = {
 			setHelpID: this.setHelpID,
-			icon: 'menu' // TODO: why?
+			icon: 'menu' // TODO: why? Now i know why :) 
 		}
 
 		Tab.defaultProps = {
 			setHelpID: this.setHelpID,
-			label: 'Tab', // TODO: why?
-			icon: 'tab' // TODO: why?
+			label: 'Tab', // TODO: why? Now i know why :) 
+			icon: 'tab' // TODO: why? Now i know why :) 
 		}
 
 		Workspace.defaultProps = {
@@ -71,7 +71,7 @@ class App extends Component {
 							<RouteDemo />
 						</Tab>
 					</Menu>
-					<Menu icon={'tab'} route={'/children1'} label={'Menu with children'}>
+					<Menu icon={'tab'} route={'/children'} label={'Menu with children'}>
 						<Tab icon={'assignment'} label={'Overflow'} helpID={104}>
 							<SimpleDiv />
 						</Tab>
