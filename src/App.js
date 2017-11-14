@@ -27,13 +27,13 @@ class App extends Component {
 
 		Menu.defaultProps = {
 			setHelpID: this.setHelpID,
-			icon: 'menu' // TODO: why?
+			icon: 'menu' // TODO: why? Now i know why :) 
 		}
 
 		Tab.defaultProps = {
 			setHelpID: this.setHelpID,
-			label: 'Tab', // TODO: why?
-			icon: 'tab' // TODO: why?
+			label: 'Tab', // TODO: why? Now i know why :) 
+			icon: 'tab' // TODO: why? Now i know why :) 
 		}
 
 		Workspace.defaultProps = {
