@@ -71,7 +71,7 @@ class App extends Component {
 							<RouteDemo />
 						</Tab>
 					</Menu>
-					<Menu icon={'tab'} route={'/children1'} label={'Menu with children'}>
+					<Menu icon={'tab'} route={'/children'} label={'Menu with children'}>
 						<Tab icon={'assignment'} label={'Overflow'} helpID={104}>
 							<SimpleDiv />
 						</Tab>
