@@ -14,7 +14,7 @@ import ReactComp from 'demos/ReactComp'
 import { SimpleDiv } from 'demos/SimpleDiv'
 import Markdown from 'demos/Markdown'
 import { RenderFooterLabel, handleLink } from './demos/FooterLabel'
-
+import greenTheme from 'demos/greenTheme'
 class App extends Component {
 	/*Temporary Help Demo */
 
@@ -50,11 +50,11 @@ class App extends Component {
 	/*End TempDemo */
 	render() {
 		return (
-			<AppContainer theme={''}>
+			<AppContainer theme={greenTheme}>
 				{/* 
 				Todo: Use default theme transparently and include theme prop in AppContainer that overwrites default theme
 				*/}
-				<Header />
+				<Header logo={'default'}/>
 				<MenuPanel>
 					<Menu route={'/'} exact helpID={10}>
 						<SimpleDiv />

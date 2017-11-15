@@ -4259,8 +4259,8 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
 nan@^2.3.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -4449,9 +4449,9 @@ obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.1.tgz#104124b6c602c6796881a042541d36db43a5264e"
 
-odeum-app@^0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/odeum-app/-/odeum-app-0.2.10.tgz#a765eba1307e4e8196788139cb65444db921d03b"
+odeum-app@^0.2.22:
+  version "0.2.23"
+  resolved "https://registry.yarnpkg.com/odeum-app/-/odeum-app-0.2.23.tgz#770ef74f00686dfff04217b3b08427d7b820a975"
   dependencies:
     odeum-ui "^0.1.26"
     react "^16.1.0"
@@ -6098,8 +6098,8 @@ styled-components@^2.1.2, styled-components@^2.2.3:
     supports-color "^3.2.3"
 
 stylis@3.x:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.4.2.tgz#336c5e33a673c7111c10fa18f8b9e41e1772bd98"
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.4.3.tgz#875bd0db3db37bb6de08f89275fc38ee2e32ee75"
 
 supports-color@^2.0.0:
   version "2.0.0"
