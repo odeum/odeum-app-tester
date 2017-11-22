@@ -1,3 +1,6 @@
+// import ODEUM_icon from 'theme/logo_icon.svg'
+// Small Icon not used anymore
+import logoGreen from './logo_green.svg'
 
 const greenTheme = {
 	header: {
@@ -33,7 +36,18 @@ const greenTheme = {
 	icon: {
 		default: '#34495D',
 		selected: '#E8F5E9'
-	}
+	},
+	quicknav: {
+		button: {
+			background: '#1B5E20',
+			color: '#FFF'
+		}
+	},
+	 logo: {
+		 default: logoGreen,
+		 bigLogo: logoGreen,
+		//  smallLogo: ODEUM_icon
+	 }
 }
 
 export default greenTheme

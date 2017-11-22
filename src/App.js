@@ -54,7 +54,7 @@ class App extends Component {
 				{/* 
 				Todo: Use default theme transparently and include theme prop in AppContainer that overwrites default theme
 				*/}
-				<Header logo={'default'}/>
+				<Header logo={greenTheme.logo}/>
 				<MenuPanel>
 					<Menu route={'/'} exact helpID={10}>
 						<SimpleDiv />
@@ -65,7 +65,6 @@ class App extends Component {
 							<ReactComp />
 						</Workspace>
 					</Menu>
-
 					<Menu icon={'people'} route={'/child'} label={'Menu with one Tab and a Route Demo'}>
 						<Tab icon={'assignment'} label={'Overflow'} helpID={11}>
 							<RouteDemo />
