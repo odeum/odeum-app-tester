@@ -6,7 +6,6 @@ import registerServiceWorker from './registerServiceWorker'
 import './index.css'
 
 
-//TODO Check Hot Reloading
 class AppRouter extends Component {
 	render() {
 		return (
