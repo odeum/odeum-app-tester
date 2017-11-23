@@ -27,13 +27,13 @@ class App extends Component {
 
 		Menu.defaultProps = {
 			setHelpID: this.setHelpID,
-			icon: 'menu' // TODO: why? Now i know why :) 
+			icon: 'menu'
 		}
 
 		Tab.defaultProps = {
 			setHelpID: this.setHelpID,
-			label: 'Tab', // TODO: why? Now i know why :) 
-			icon: 'tab' // TODO: why? Now i know why :) 
+			label: 'Tab',
+			icon: 'tab'
 		}
 
 		Workspace.defaultProps = {
@@ -51,9 +51,6 @@ class App extends Component {
 	render() {
 		return (
 			<AppContainer theme={greenTheme}>
-				{/* 
-				Todo: Use default theme transparently and include theme prop in AppContainer that overwrites default theme
-				*/}
 				<Header logo={greenTheme.logo}/>
 				<MenuPanel>
 					<Menu route={'/'} exact helpID={10}>
@@ -92,11 +89,6 @@ class App extends Component {
 							<Markdown />
 						</Workspace>					
 					</Menu>
-
-					{/* 					
-					Todo: Create defaultprops for Menu and Tab so they can be used without any props (label, icon, ... so why don't we use them?)
-					*/}
-
 				</MenuPanel>
 				<Footer label={RenderFooterLabel} labelLink={handleLink()} helpID={this.state.helpID} />
 			</AppContainer>
